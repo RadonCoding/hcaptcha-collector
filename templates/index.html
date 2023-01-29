@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>hCaptcha Collector</title>
+</head>
+<body>
+<form method="POST"> <!-- Sends POST request to flask server -->
+    {{ hcaptcha | safe}} <!-- Refer to 'hcaptcha' variable in server.py -->
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
