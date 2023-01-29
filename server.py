@@ -8,8 +8,8 @@ load_dotenv()
 
 server = Flask(__name__)
 captcha = hCaptcha(server,
-                   os.environ["HCAPTCHA_SITE_KEY"],
-                   os.environ["HCAPTCHA_SECRET_KEY"],
+                   os.environ["HCAPTCHA_SITEKEY"],
+                   os.environ["HCAPTCHA_SECRET"],
                    True)
 
 
