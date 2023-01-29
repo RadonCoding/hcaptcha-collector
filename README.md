@@ -4,6 +4,8 @@
 
 ### Usage
 1. Open your hosts file and route hcaptcha-solver.com to localhost
+2. Set HCAPTCHA_SITEKEY environment variable to your [hcaptcha](https://www.hcaptcha.com) sitekey
+2. Set HCAPTCHA_SECRET environment variable to your [hcaptcha](https://www.hcaptcha.com) secret
 2. Run `python server.py` in a separate terminal
 3. Run `python collector.py`
 4. Start solving captchas
